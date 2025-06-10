@@ -1,15 +1,16 @@
+import { NgClass } from '@angular/common';
 import { Component, input } from '@angular/core';
 
 @Component({
   selector: 'app-circle-progress',
-  imports: [],
+  imports: [NgClass],
   templateUrl: './circle-progress.html',
   styleUrl: './circle-progress.scss'
 })
 export class CircleProgress {
   percent = input(40);
   strokeWidth=input(5);
-  strokeColor = input('#3f51b5');
+  strokeClass = input('text-primary');
   size= input(50);
 
   get radius() {

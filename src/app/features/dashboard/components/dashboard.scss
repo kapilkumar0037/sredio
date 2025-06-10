@@ -1,0 +1,32 @@
+.btn-group {
+  display: flex;
+  align-items: baseline;
+  font-size: smaller;
+  gap: 10px;
+  .btn {
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+  }
+  .dropdown-toggle {
+    box-shadow: 0.1rem 0.1rem 0.5rem 0.1rem rgba(0, 0, 0, 0.15);
+    font-size: smaller;
+  }
+  .dropdown-menu {
+    font-size: smaller;
+  }
+}
+.details {
+  font-size: small;
+  display: flex;
+  gap: 10px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: small;
+}
+.form-switch {
+  font-size: small;
+}

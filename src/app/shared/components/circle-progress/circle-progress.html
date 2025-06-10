@@ -1,35 +1,14 @@
 <svg [attr.width]="size()" [attr.height]="size()" [attr.viewBox]="'0 0 ' + size + ' ' + size">
     <!-- Background Circle -->
-    <circle
-      [attr.cx]="center"
-      [attr.cy]="center"
-      [attr.r]="radius"
-      stroke="#eee"
-      [attr.stroke-width]="strokeWidth()"
-      fill="none"
-    />
+    <circle [attr.cx]="center" [attr.cy]="center" [attr.r]="radius" stroke="#eee" [attr.stroke-width]="strokeWidth()"
+        fill="none" />
     <!-- Foreground Progress Circle -->
-    <circle
-      [attr.cx]="center"
-      [attr.cy]="center"
-      [attr.r]="radius"
-      [attr.stroke]="strokeColor()"
-      [attr.stroke-width]="strokeWidth()"
-      fill="none"
-      [attr.stroke-dasharray]="circumference"
-      [attr.stroke-dashoffset]="dashOffset"
-      stroke-linecap="round"
-      [attr.transform]="'rotate(-90 ' + center + ' ' + center + ')'"
-    />
+    <circle [attr.cx]="center" [attr.cy]="center" [attr.r]="radius" [attr.stroke-width]="strokeWidth()"
+        [ngClass]="strokeClass()" stroke="currentColor" fill="none" [attr.stroke-dasharray]="circumference"
+        [attr.stroke-dashoffset]="dashOffset" stroke-linecap="round"
+        [attr.transform]="'rotate(-90 ' + center + ' ' + center + ')'" />
     <!-- Text -->
-    <text
-      [attr.x]="center"
-      [attr.y]="center"
-      text-anchor="middle"
-      dy=".3em"
-      font-size="16"
-      fill="#333">
-      {{ percent() }}%
+    <text [attr.x]="center" [attr.y]="center" text-anchor="middle" dy=".3em" font-size="16" fill="#333">
+        {{ percent() }}%
     </text>
-  </svg>
-  
+</svg>
