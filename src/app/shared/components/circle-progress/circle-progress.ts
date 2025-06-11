@@ -10,7 +10,7 @@ import { Component, input } from '@angular/core';
 export class CircleProgress {
   percent = input(40);
   strokeWidth=input(5);
-  strokeClass = input('text-primary');
+  strokeClass = input('primary');
   size= input(50);
 
   get radius() {

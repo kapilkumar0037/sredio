@@ -1,0 +1,23 @@
+<div class="card border-left-{{tileInput()?.className}} shadow h-100 py-1">
+    <div class="card-body py-1">
+        <div class="row no-gutters align-items-center">
+            <div class="col mr-2">
+                <div class="h6 font-weight-bold text-{{tileInput()?.className}} mb-1">
+                    {{tileInput()?.title}}</div>
+                <div class="details">
+                    <div class="mb-0 font-weight-bold text-gray-800">{{tileInput()?.description}}</div>
+                    <!-- <div class="mb-0 font-weight-bold text-gray-800">Expected: 250</div> -->
+                </div>
+            </div>
+            <div class="col-auto">
+                <app-circle-progress [percent]="tileInput()?.progress??0"  [strokeClass]="tileInput()?.className??''"></app-circle-progress>
+            </div>
+        </div>
+    </div>
+    <div class="card-footer d-flex justify-content-space-between py-0 border-0">
+        @for(action of tileInput()?.actions; track action) {
+        <a href="#" class="text-decoration-none text-{{tileInput()?.className}}">
+            {{action.label}}  <i class="bi {{action.icon}}"></i></a>
+        }
+    </div>
+</div>

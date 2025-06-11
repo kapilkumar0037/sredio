@@ -4,7 +4,7 @@
         fill="none" />
     <!-- Foreground Progress Circle -->
     <circle [attr.cx]="center" [attr.cy]="center" [attr.r]="radius" [attr.stroke-width]="strokeWidth()"
-        [ngClass]="strokeClass()" stroke="currentColor" fill="none" [attr.stroke-dasharray]="circumference"
+        [ngClass]="'text-'+strokeClass()" stroke="currentColor" fill="none" [attr.stroke-dasharray]="circumference"
         [attr.stroke-dashoffset]="dashOffset" stroke-linecap="round"
         [attr.transform]="'rotate(-90 ' + center + ' ' + center + ')'" />
     <!-- Text -->

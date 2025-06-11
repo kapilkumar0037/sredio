@@ -1,0 +1,9 @@
+.list-group {
+  max-height: 185px;
+  overflow-y: scroll;
+
+  li {
+    border-left: none;
+    border-right: none;
+  }
+}
