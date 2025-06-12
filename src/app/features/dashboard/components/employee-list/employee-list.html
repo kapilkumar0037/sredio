@@ -1,0 +1,11 @@
+<div class="list-group">
+    <a href="#" class="list-group-item list-group-item-action py-1 active" aria-current="true">
+        Cumulative 
+    </a>
+    @for(emp of employeeList; track emp) {
+    <a href="#" class="list-group-item list-group-item-action py-1 " aria-current="true">
+        {{emp.name}}
+    </a>
+
+    }
+</div>

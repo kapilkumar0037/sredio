@@ -5,10 +5,11 @@ import { Tile } from '../../../shared/components/tile/tile';
 import { ISummaryTile } from '../../../shared/models/general.models';
 import { DashboardConstants } from '../constants/general.constants';
 import { ActiveIntegrations } from './active-integrations/active-integrations';
+import { EmployeeList } from './employee-list/employee-list';
 
 @Component({
   selector: 'app-dashboard',
-  imports: [BsDropdownModule, Tile, ActiveIntegrations],
+  imports: [BsDropdownModule, Tile, ActiveIntegrations, EmployeeList],
   templateUrl: './dashboard.html',
   styleUrl: './dashboard.scss'
 })
