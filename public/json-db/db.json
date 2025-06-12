@@ -16366,35 +16366,109 @@
         }
     ],
     "projects": [
-    {
-      "projectId": "P001",
-      "name": "Client Portal Redesign",
-      "allocatedHours": 1200,
-      "consumedHours": 980
-    },
-    {
-      "projectId": "P002",
-      "name": "Internal R&D - AI Bot",
-      "allocatedHours": 900,
-      "consumedHours": 750
-    },
-    {
-      "projectId": "P003",
-      "name": "Mobile App Revamp",
-      "allocatedHours": 1500,
-      "consumedHours": 1300
-    },
-    {
-      "projectId": "P004",
-      "name": "Cloud Migration",
-      "allocatedHours": 1000,
-      "consumedHours": 890
-    },
-    {
-      "projectId": "P005",
-      "name": "API Platform Upgrade",
-      "allocatedHours": 1100,
-      "consumedHours": 970
-    }
-  ]
+        {
+          "projectId": "P001",
+          "projectName": "Client Portal Redesign",
+          "year": 2023,
+          "allocatedHours": 1242,
+          "consumedHours": 941
+        },
+        {
+          "projectId": "P001",
+          "projectName": "Client Portal Redesign",
+          "year": 2024,
+          "allocatedHours": 1161,
+          "consumedHours": 862
+        },
+        {
+          "projectId": "P002",
+          "projectName": "Internal R&D - AI Bot",
+          "year": 2023,
+          "allocatedHours": 1228,
+          "consumedHours": 957
+        },
+        {
+          "projectId": "P002",
+          "projectName": "Internal R&D - AI Bot",
+          "year": 2024,
+          "allocatedHours": 1184,
+          "consumedHours": 934
+        },
+        {
+          "projectId": "P003",
+          "projectName": "Mobile App Revamp",
+          "year": 2023,
+          "allocatedHours": 1265,
+          "consumedHours": 901
+        },
+        {
+          "projectId": "P003",
+          "projectName": "Mobile App Revamp",
+          "year": 2024,
+          "allocatedHours": 1229,
+          "consumedHours": 956
+        },
+        {
+          "projectId": "P004",
+          "projectName": "Cloud Migration",
+          "year": 2023,
+          "allocatedHours": 1256,
+          "consumedHours": 975
+        },
+        {
+          "projectId": "P004",
+          "projectName": "Cloud Migration",
+          "year": 2024,
+          "allocatedHours": 1048,
+          "consumedHours": 879
+        },
+        {
+          "projectId": "P005",
+          "projectName": "API Platform Upgrade",
+          "year": 2023,
+          "allocatedHours": 1159,
+          "consumedHours": 883
+        },
+        {
+          "projectId": "P005",
+          "projectName": "API Platform Upgrade",
+          "year": 2024,
+          "allocatedHours": 1275,
+          "consumedHours": 849
+        }
+      ],
+    "activeIntegrations": [
+        {
+            "name": "Jira",
+            "icon": "jira"
+        },
+        {
+            "name": "Bitbucket",
+            "icon": "bitbucket"
+        },
+        {
+            "name": "Github",
+            "icon": "github"
+        },
+        {
+            "name": "Azure",
+            "icon": "azure"
+        },
+        {
+            "name": "Harvest",
+            "icon": "harvest"
+        },
+        {
+            "name": "ClickUp",
+            "icon": "clickup"
+        },
+        {
+            "name": "Airtable",
+            "icon": "airtable"
+        },
+        {
+            "name": "Bigtime",
+            "icon": "bigtime"
+        }
+    ]
 }

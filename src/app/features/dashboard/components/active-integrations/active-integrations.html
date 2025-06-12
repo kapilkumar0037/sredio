@@ -1,8 +1,10 @@
 <ul class="list-group border-radius-0">
+    @if (integrations$ | async; as integrations) {
     @for(integration of integrations; track integration) {
     <li class="list-group-item d-flex gap-3 align-items-center py-1">
         <img width="24px" src="assets/jpg/{{integration.icon}}.jpg" />
         {{integration.name}}
     </li>
+    }
     }
 </ul>

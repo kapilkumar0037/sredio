@@ -1,20 +1,16 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { IEmployee } from '../../models/general.models';
+import { Observable } from 'rxjs';
+import { Dashboard } from '../../services/dashboard';
+import { AsyncPipe } from '@angular/common';
 
 @Component({
   selector: 'app-employee-list',
-  imports: [],
+  imports: [AsyncPipe],
   templateUrl: './employee-list.html',
   styleUrl: './employee-list.scss'
 })
 export class EmployeeList {
-  employeeList: IEmployee[] = [
-    {name: 'Anne', employeeId: 1},
-    {name: 'Bob', employeeId: 2},
-    {name: 'Charlie', employeeId: 3},
-    {name: 'David', employeeId: 4},
-    {name: 'Eve', employeeId: 5},
-    {name: 'Frank', employeeId: 6},
-    {name: 'Grace', employeeId: 7},
-  ]
+  dashboardService = inject(Dashboard);
+  employeeList$: Observable<IEmployee[]> = this.dashboardService.getEmployees();
 }
