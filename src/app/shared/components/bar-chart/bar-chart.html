@@ -1,0 +1,17 @@
+<div class="parent">
+    <div class="barchart-container">
+        <ngx-charts-bar-vertical-2d [view]="view" [scheme]="colorScheme" [results]="groupedBarData"
+            [gradient]="gradient" [xAxis]="showXAxis" [yAxis]="showYAxis" [legend]="false"
+            [showXAxisLabel]="showXAxisLabel" [showYAxisLabel]="showYAxisLabel" [xAxisLabel]="xAxisLabel"
+            [yAxisLabel]="yAxisLabel" [legendTitle]="legendTitle" [groupPadding]="8" (select)="onSelect($event)">
+        </ngx-charts-bar-vertical-2d>
+    </div>
+    <div class="custom-legend">
+        @for(item of groupedBarData[0].series; track item){
+        <div class="legend-item">
+            <span class="legend-color" [style.background]="getColor(item.name)"></span>
+            <span class="legend-label">{{ item.name }}</span>
+        </div>
+        }
+    </div>
+</div>

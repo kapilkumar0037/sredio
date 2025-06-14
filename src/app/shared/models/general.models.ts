@@ -4,9 +4,16 @@ export interface IAction {
     icon?: string;
 }
 export interface ISummaryTile {
+    key: string;
     title: string;
     description: string;
     className: string;
     actions?: IAction[];
     progress?: number;
+}
+
+export interface IDropdownItem {
+    label: string;
+    value: string | number;
+    icon?: string;
 }

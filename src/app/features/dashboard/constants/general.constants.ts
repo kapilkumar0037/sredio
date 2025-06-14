@@ -1,9 +1,11 @@
-import { ISummaryTile } from "../../../shared/models/general.models";
+import { IDropdownItem, ISummaryTile } from "../../../shared/models/general.models";
+import { TilesEnum } from "../enums/general.enums";
 import { IActiveIntegrations } from "../models/general.models";
 
 export class DashboardConstants {
     public static readonly SummaryTiles: ISummaryTile[] = [
         {
+            key: TilesEnum.HOURS,
             className: 'primary',
             title: 'Hours summary',
             description: 'Tracked 200/250',
@@ -14,6 +16,7 @@ export class DashboardConstants {
             progress: 75
         },
         {
+            key: TilesEnum.TIMESHEETS,
             className: 'success',
             title: 'Timesheet summary',
             description: 'Created 200/250',
@@ -24,6 +27,7 @@ export class DashboardConstants {
             progress: 60
         },
         {
+            key: TilesEnum.SRED,
             className: 'info',
             title: 'SR & ED Hours',
             description: 'Tracked 150/250',
@@ -33,6 +37,7 @@ export class DashboardConstants {
             progress: 60
         },
         {
+            key: TilesEnum.PROJECTHOURS,
             className: 'warning',
             title: 'Project hours',
             description: 'Consumed 200/250',
@@ -53,4 +58,6 @@ export class DashboardConstants {
         { name: 'Airtable', icon: 'airtable' },
         { name: 'Bigtime', icon: 'bigtime' },
     ]
+
+    
 }

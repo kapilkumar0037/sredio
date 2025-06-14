@@ -1,0 +1,12 @@
+<div class="btn-group" dropdown placement="bottom right">
+    <label for="button-basic" class="form-label">{{label()}}</label>
+    <button id="button-basic" dropdownToggle type="button" class="btn dropdown-toggle" aria-controls="dropdown-basic">
+        {{selectedOption().label}} <span class="caret"></span>
+    </button>
+    <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu" role="menu" aria-labelledby="button-basic">
+        @for(option of options(); track option) {
+        <li role="menuitem"><a class="dropdown-item" [ngClass]="{'active':selectedOption().value===option.value}"
+                (click)="onValueChange(option)">{{option.label}}</a></li>
+        }
+    </ul>
+</div>

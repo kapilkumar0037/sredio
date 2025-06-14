@@ -1,6 +1,6 @@
 import { Component, inject } from '@angular/core';
 import { DashboardConstants } from '../../constants/general.constants';
-import { Dashboard } from '../../services/dashboard';
+import { DashboardService } from '../../services/dashboard';
 import { Observable } from 'rxjs';
 import { IActiveIntegrations } from '../../models/general.models';
 import { AsyncPipe } from '@angular/common';
@@ -12,6 +12,6 @@ import { AsyncPipe } from '@angular/common';
   styleUrl: './active-integrations.scss'
 })
 export class ActiveIntegrations {
-  dashboardService = inject(Dashboard);
+  dashboardService = inject(DashboardService);
   integrations$: Observable<IActiveIntegrations[]> = this.dashboardService.getActiveIntegrations()
 }

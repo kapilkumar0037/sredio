@@ -1,0 +1,29 @@
+.chart-container {
+  min-height: 250px;
+}
+.chart-container svg {
+  overflow: visible;
+  margin: 0 !important;
+}
+.center-text {
+  position: absolute;
+  top: 46%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  pointer-events: none;
+}
+::ng-deep {
+  .legend-title {
+    display: none !important;
+  }
+  .chart-legend .legend-labels {
+    text-align: center !important;
+  }
+  .ngx-charts-outer {
+    margin: auto;
+  }
+}
+

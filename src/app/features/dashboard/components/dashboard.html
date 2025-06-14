@@ -1,25 +1,13 @@
 <div class="container-fluid">
-
-    <!-- Page Heading -->
     <div class="d-flex align-items-start justify-content-between mt-3 mb-1">
         <h5 class="h5 mb-0 text-gray-800"><img src="assets/svg/brand3.svg" width="150px" /></h5>
         <div class="d-flex align-items-end gap-3 fiscal-year">
-            <div class="btn-group" dropdown placement="bottom right"><label for="button-basic" class="form-label">Fiscal
-                    year</label>
-                <button id="button-basic" dropdownToggle type="button" class="btn dropdown-toggle"
-                    aria-controls="dropdown-basic">
-                    2025 <span class="caret"></span>
-                </button>
-                <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu" role="menu" aria-labelledby="button-basic">
-                    <li role="menuitem"><a class="dropdown-item">2025</a></li>
-                    <li role="menuitem"><a class="dropdown-item">2024</a></li>
-                    <li role="menuitem"><a class="dropdown-item">2023</a></li>
-                </ul>
-            </div>
-            <div class="form-check form-switch">
-                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
-                <label class="form-check-label" for="flexSwitchCheckChecked">Current month summary</label>
-            </div>
+            <app-dropdown [options]="yearDropdownItems" (changeEmit)="yearChanged($event)"
+                [selectedOption]="selectedYear" label="Fiscal year"></app-dropdown>
+            <app-dropdown [options]="monthDropdownItems" (changeEmit)="monthChanged($event)"
+                [selectedOption]="selectedMonth" label="Month"></app-dropdown>
+            <app-dropdown [options]="employeeDropdownItems" (changeEmit)="changeEmployee($event)"
+                [selectedOption]="selectedEmployee" label="Employee"></app-dropdown>
         </div>
     </div>
 
@@ -36,55 +24,26 @@
             <div class="card shadow mb-3">
                 <div class="card-header py-1 d-flex border-0 flex-row align-items-center justify-content-between">
                     <h6 class="m-0 font-weight-bold text-primary">SR & ED vs Regular hours</h6>
-                    <div class="dropdown no-arrow">
-                        <a class="dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
-                            aria-labelledby="dropdownMenuLink">
-                            <div class="dropdown-header">Dropdown Header:</div>
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </div>
+
                 </div>
-                <div class="card-body">
-                    <div class="chart-area">
-                        <canvas id="myAreaChart"></canvas>
-                    </div>
+                <div class="card-body p-0">
+                    <app-pie-chart></app-pie-chart>
                 </div>
             </div>
         </div>
 
         <div class="col-xl-7 col-lg-7">
-            <div class="card shadow mb-3">
+            <div class="card shadow mb-3 emp-summary">
                 <div class="card-header py-1 d-flex border-0 flex-row align-items-center justify-content-between">
                     <h6 class="m-0 font-weight-bold text-primary">Employee Summary</h6>
-                    <div class="btn-group" dropdown placement="bottom right">
-                        <button id="button-basic" dropdownToggle type="button" class="btn dropdown-toggle"
-                            aria-controls="dropdown-basic">
-                            Month <span class="caret"></span>
-                        </button>
-                        <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu" role="menu"
-                            aria-labelledby="button-basic">
-                            <li role="menuitem"><a class="dropdown-item">Week</a></li>
-                            <li role="menuitem"><a class="dropdown-item">Month</a></li>
-                            <li role="menuitem"><a class="dropdown-item">Fiscal year</a></li>
-                        </ul>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked">
+                        <label class="form-check-label" for="flexSwitchCheckChecked">Timesheets</label>
                     </div>
 
                 </div>
-                <!-- Card Body -->
                 <div class="card-body p-0">
-                    <div class="row">
-                        <div class="col-lg-3">
-                            <app-employee-list></app-employee-list>
-                        </div>
-                        <div class="col-lg-9"></div>
-                    </div>
+                    <app-bar-chart-stacked></app-bar-chart-stacked>
                 </div>
             </div>
         </div>
@@ -107,7 +66,7 @@
                     <h6 class="m-0 font-weight-bold text-primary">Project hours</h6>
                 </div>
                 <div class="card-body">
-                  
+
                 </div>
             </div>
         </div>
@@ -118,7 +77,7 @@
                     <h6 class="m-0 font-weight-bold text-primary">Employees</h6>
                 </div>
                 <div class="card-body">
-                 
+
                 </div>
             </div>
         </div>

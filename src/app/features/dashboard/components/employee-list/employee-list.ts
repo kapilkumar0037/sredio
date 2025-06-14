@@ -1,7 +1,7 @@
 import { Component, inject } from '@angular/core';
 import { IEmployee } from '../../models/general.models';
 import { Observable } from 'rxjs';
-import { Dashboard } from '../../services/dashboard';
+import { DashboardService } from '../../services/dashboard';
 import { AsyncPipe } from '@angular/common';
 
 @Component({
@@ -11,6 +11,6 @@ import { AsyncPipe } from '@angular/common';
   styleUrl: './employee-list.scss'
 })
 export class EmployeeList {
-  dashboardService = inject(Dashboard);
+  dashboardService = inject(DashboardService);
   employeeList$: Observable<IEmployee[]> = this.dashboardService.getEmployees();
 }
