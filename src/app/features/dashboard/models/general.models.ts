@@ -41,6 +41,20 @@ export interface IDashboardData {
     projects: IProject[];
 }
 
+export interface IEmployeeListItem {
+    name: string;
+    employeeId: number;
+    expectedSredHours: number;
+    expectedTimesheet: number;
+    missingTimesheet: number;
+    month: number;
+    regularHours: number;
+    sredHours: number;
+    totalExpectedHours: number;
+    trackedTimesheet: number;
+    year: number;
+}
+
 export interface ISummary {
     employeeHours: IEmployeeHours[];
     employeeTimesheets: IEmployeeTimesheets[];
@@ -60,4 +74,5 @@ export interface ISummary {
     totalProjectAllocation: number;
     totalProjectConsumed: number;
     projectConsumedPercent: number;
+    employeesList: IEmployeeListItem[];
 }

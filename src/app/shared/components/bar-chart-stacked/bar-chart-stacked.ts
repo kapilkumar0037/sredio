@@ -11,6 +11,7 @@ import { IChartSeriesGroupedRecord } from '../../models/general.models';
 export class BarChartStacked {
   view = input<[number, number]>([700, 245]);
   barChartData = input<IChartSeriesGroupedRecord[]>([]);
+  colors = input<string[]>([ '#C7B42C', '#2f51a9','#A10A28','#5AA454',  '#AAAAAA']);
   showLegend: boolean = true;
   legendPosition: LegendPosition = LegendPosition.Below;
   showXAxis: boolean = true;
@@ -24,11 +25,12 @@ export class BarChartStacked {
   animations: boolean = true;
   showDataLabel: boolean = true;
 
+
   colorScheme: Color = {
     name: 'cool',
     selectable: true,
     group: ScaleType.Ordinal,
-    domain: [ '#C7B42C', '#AAAAAA','#5AA454', '#A10A28']
+    domain: this.colors()
   }
   onSelect(data: any): void {
     console.log('Item clicked', JSON.parse(JSON.stringify(data)));

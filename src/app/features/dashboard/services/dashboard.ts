@@ -1,8 +1,9 @@
 import { inject, Injectable } from '@angular/core';
 import { ApiService } from '../../../shared/services/api-service';
 import { empty, forkJoin, map, Observable } from 'rxjs';
-import { IActiveIntegrations, IEmployee, IEmployeeHours, ISummary, IEmployeeTimesheets, IProject } from '../models/general.models';
+import { IActiveIntegrations, IEmployee, IEmployeeHours, ISummary, IEmployeeTimesheets, IProject, IEmployeeListItem } from '../models/general.models';
 import { ActiveIntegrations } from '../components/active-integrations/active-integrations';
+import { CommonUtility } from '../../../shared/utils/common';
 
 @Injectable({
   providedIn: 'root'
@@ -28,7 +29,8 @@ export class DashboardService {
     timesheetTrackedPercent: 0,
     totalProjectAllocation: 0,
     totalProjectConsumed: 0,
-    projectConsumedPercent: 0
+    projectConsumedPercent: 0,
+    employeesList: []
   }
 
   getEmployeeHours(): Observable<IEmployeeHours[]> {
@@ -68,15 +70,15 @@ export class DashboardService {
       }))
   }
 
-  getSummary(year: number | string, month?: number | string,  empId?: number | string): ISummary {
-    if(Number(month) > 0 && Number(empId) > 0){
-      this.employeeSummary.employeeHours = this.employeeHours.filter(eh => eh.year === year && eh.month === month && eh.employeeId===empId);
-      this.employeeSummary.employeeTimesheets = this.employeeTimesheets.filter(et => et.year === year && et.month === month  && et.employeeId===empId);
+  getSummary(year: number | string, month?: number | string, empId?: number | string): ISummary {
+    if (Number(month) > 0 && Number(empId) > 0) {
+      this.employeeSummary.employeeHours = this.employeeHours.filter(eh => eh.year === year && eh.month === month && eh.employeeId === empId);
+      this.employeeSummary.employeeTimesheets = this.employeeTimesheets.filter(et => et.year === year && et.month === month && et.employeeId === empId);
       this.employeeSummary.projects = this.projects.filter(p => p.year === year && p.month === month);
     }
-    else  if(Number(month) < 0 && Number(empId) > 0){
-      this.employeeSummary.employeeHours = this.employeeHours.filter(eh => eh.year === year  && eh.employeeId===empId);
-      this.employeeSummary.employeeTimesheets = this.employeeTimesheets.filter(et => et.year === year && et.employeeId===empId);
+    else if (Number(month) < 0 && Number(empId) > 0) {
+      this.employeeSummary.employeeHours = this.employeeHours.filter(eh => eh.year === year && eh.employeeId === empId);
+      this.employeeSummary.employeeTimesheets = this.employeeTimesheets.filter(et => et.year === year && et.employeeId === empId);
       this.employeeSummary.projects = this.projects.filter(p => p.year === year);
     }
     else if (Number(month) > 0 && Number(empId) < 0) {
@@ -90,7 +92,7 @@ export class DashboardService {
     }
 
     this.employeeSummary.totalTrackedHours = this.employeeSummary.employeeHours.reduce((sum, eh) => sum + eh.regularHours + eh.sredHours, 0);
-    this.employeeSummary.totalExpectedHours = this.employeeSummary.employeeHours.reduce((sum, eh) => sum + eh.totalExpectedHours + eh.expectedSredHours, 0);
+    this.employeeSummary.totalExpectedHours = this.employeeSummary.employeeHours.reduce((sum, eh) => sum + eh.totalExpectedHours, 0);
     this.employeeSummary.totalTrackedPercent = Math.round(this.employeeSummary.totalTrackedHours / this.employeeSummary.totalExpectedHours * 100);
     this.employeeSummary.totalSredHoursExpected = this.employeeSummary.employeeHours.reduce((sum, et) => sum + et.expectedSredHours, 0);
     this.employeeSummary.totalSredHoursTracked = this.employeeSummary.employeeHours.reduce((sum, et) => sum + et.sredHours, 0);
@@ -103,6 +105,13 @@ export class DashboardService {
     this.employeeSummary.totalProjectAllocation = this.employeeSummary.projects.reduce((sum, et) => sum + et.hoursAllocated, 0);
     this.employeeSummary.totalProjectConsumed = this.employeeSummary.projects.reduce((sum, et) => sum + et.hoursConsumed, 0);
     this.employeeSummary.projectConsumedPercent = Math.round(this.employeeSummary.totalProjectConsumed / this.employeeSummary.totalProjectAllocation * 100);
+
+
+    this.employeeSummary.employeesList = this.employeeSummary.employeeHours.map(item1 => {
+      const match = this.employeeSummary.employeeTimesheets.find(item2 => item2.employeeId === item1.employeeId && item2.month === item1.month);
+      const name = this.employees.find(e => e.id === item1.employeeId)?.name || 'Unknown';
+      return { name, ...item1, ...match } as IEmployeeListItem;
+    });
 
     return this.employeeSummary;
   }

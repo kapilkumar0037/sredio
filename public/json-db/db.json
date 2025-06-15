@@ -1,6 +1,10 @@
 {
     "employees": [
         {
+            "id": -1,
+            "name": "All"
+        },
+        {
             "id": 1,
             "name": "Alice Johnson"
         },

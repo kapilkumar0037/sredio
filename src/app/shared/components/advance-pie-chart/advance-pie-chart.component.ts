@@ -1,17 +1,17 @@
-import { Component, inject, input } from '@angular/core';
+import { Component, input } from '@angular/core';
 import { Color, LegendPosition, PieChartModule, ScaleType } from '@swimlane/ngx-charts';
 import { IChartSeriesRecord } from '../../models/general.models';
 
 @Component({
-  selector: 'app-pie-chart',
+  selector: 'app-advance-pie-chart',
   imports: [PieChartModule],
-  templateUrl: './pie-chart.html',
-  styleUrl: './pie-chart.scss'
+  templateUrl: './advance-pie-chart.component.html',
+  styleUrl: './advance-pie-chart.component.scss'
 })
-export class PieChart {
+export class AdvancePieChartComponent {
   pieChartData = input<IChartSeriesRecord[]>([]);
   percent = input<number>(0);
-  view: [number, number] = [250, 200];
+  view: [number, number] = [700, 245];
 
   // options
   gradient: boolean = true;
@@ -24,7 +24,7 @@ export class PieChart {
     name: 'cool',
     selectable: true, 
     group: ScaleType.Ordinal,
-    domain: ['#2f51a9','#5AA454', '#A10A28', '#C7B42C',]
+    domain: ['#664d03','#2f51a9','#5AA454', '#A10A28', '#C7B42C',]
   }
 
   getPercent(): number {

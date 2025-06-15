@@ -16,10 +16,15 @@ import { Dropdown } from '../../../shared/controls/dropdown/dropdown';
 import { SharedConstants } from '../../../shared/constants/general.constants';
 import { CommonUtility } from '../../../shared/utils/common';
 import { BarChartStacked } from '../../../shared/components/bar-chart-stacked/bar-chart-stacked';
+import { AdvancePieChartComponent } from '../../../shared/components/advance-pie-chart/advance-pie-chart.component';
+import { NgClass } from '@angular/common';
 
 @Component({
   selector: 'app-dashboard',
-  imports: [BsDropdownModule, Tile, ActiveIntegrations, FormsModule, PieChart, BarChartStacked, Dropdown],
+  imports: [BsDropdownModule, Tile,
+    ActiveIntegrations, FormsModule,
+    PieChart, BarChartStacked,
+    Dropdown, AdvancePieChartComponent, NgClass],
   templateUrl: './dashboard.html',
   styleUrl: './dashboard.scss'
 })
@@ -36,11 +41,15 @@ export class Dashboard {
   sredVsRegular: IChartSeriesRecord[] = [];
   pieChartPercent: number = 0;
   projectsBarChartData: IChartSeriesGroupedRecord[] = [];
+  hoursBarChartData: IChartSeriesGroupedRecord[] = [];
+  hoursPieChartData: IChartSeriesRecord[] = [];
+  isTimesheetSummaryEnabled = false;
+  projectBarColors: string[] = ['#5AA454','#2f51a9','#C7B42C', '#A10A28' ];
+
   ngOnInit() {
     this.dashboardService.getDashboardData().subscribe((data) => {
       this.employeeDropdownItems = this.getEmployeeDropdownItems(data.employees);
       this.fetchSummaries();
-      console.log(data);
     });
   }
 
@@ -64,11 +73,24 @@ export class Dashboard {
     this.fetchSummaries();
   }
 
+  timesheetSwitchChange() {
+    if (this.isTimesheetSummaryEnabled) {
+      this.getTimesheetsChartsData();
+    } else {
+      this.getHoursChartsData();
+    }
+  }
+
   fetchSummaries() {
     this.summary = this.dashboardService.getSummary(this.selectedYear.value, this.selectedMonth.value, +this.selectedEmployee.value);
     this.setSummaryTileValues();
     this.getPieChartData();
     this.getProjectBarChartData();
+    if (this.isTimesheetSummaryEnabled) {
+      this.getTimesheetsChartsData();
+    } else {
+      this.getHoursChartsData();
+    }
   }
 
   getPieChartData() {
@@ -129,88 +151,53 @@ export class Dashboard {
         ]
       })
     })
-    console.log(result);
     this.projectsBarChartData = result;
   }
 
-  groupedBarData = [
-    {
-      name: 'Product A',
-      series: [
-        { name: '2020', value: 300 },
-        { name: '2021', value: 400 }
-      ]
-    },
-    {
-      name: 'Product B',
-      series: [
-        { name: '2020', value: 270 },
-        { name: '2021', value: 350 }
-      ]
-    },
-    {
-      name: 'Product C',
-      series: [
-        { name: '2020', value: 250 },
-        { name: '2021', value: 300 }
-      ]
-    },
-    {
-      name: 'Product D',
-      series: [
-        { name: '2020', value: 250 },
-        { name: '2021', value: 300 }
-      ]
-    },
-    {
-      name: 'Product E',
-      series: [
-        { name: '2020', value: 250 },
-        { name: '2021', value: 300 }
-      ]
-    },
-    {
-      name: 'Product F',
-      series: [
-        { name: '2020', value: 250 },
-        { name: '2021', value: 300 }
-      ]
-    },
-    {
-      name: 'Product G',
-      series: [
-        { name: '2020', value: 250 },
-        { name: '2021', value: 300 }
-      ]
-    },
-    {
-      name: 'Product H',
-      series: [
-        { name: '2020', value: 250 },
-        { name: '2021', value: 300 }
-      ]
-    },
-    {
-      name: 'Product I',
-      series: [
-        { name: '2020', value: 250 },
-        { name: '2021', value: 300 }
-      ]
-    },
-    {
-      name: 'Product J',
-      series: [
-        { name: '2020', value: 250 },
-        { name: '2021', value: 300 }
-      ]
-    },
-    {
-      name: 'Product K',
-      series: [
-        { name: '2020', value: 250 },
-        { name: '2021', value: 300 }
-      ]
-    },
-  ];
+  getHoursChartsData() {
+    const result: IChartSeriesGroupedRecord[] = [];
+    SharedConstants.MonthDropdownItems.forEach((month) => {
+      if (Number(month.value) > -1) {
+        const employeeHours = this.summary.employeeHours.filter((x) => x.month === month.value);
+        const totalExpectedHours = employeeHours.reduce((sum, et) => sum + et.totalExpectedHours, 0);
 
+        const sredtracked = employeeHours.reduce((sum, et) => sum + et.sredHours, 0);
+        const regulartracked = employeeHours.reduce((sum, et) => sum + et.regularHours, 0);
+        const series = [
+          { name: 'SRED', value: sredtracked },
+          { name: 'Regular', value: regulartracked },
+          { name: 'Missing', value: totalExpectedHours - (sredtracked + regulartracked) },
+        ];
+        if (month.value === this.selectedMonth.value) {
+          this.hoursPieChartData = series;
+        }
+        result.push({
+          name: CommonUtility.getMonth(Number(month.value)).label, series: series
+        })
+      }
+
+    })
+    this.hoursBarChartData = result;
+  }
+  getTimesheetsChartsData() {
+    const result: IChartSeriesGroupedRecord[] = [];
+    SharedConstants.MonthDropdownItems.forEach((month) => {
+      if (Number(month.value) > -1) {
+        const employeeTimesheets = this.summary.employeeTimesheets.filter((x) => x.month === month.value);
+        const trackedTimesheets = employeeTimesheets.reduce((sum, et) => sum + et.trackedTimesheet, 0);
+        const missing = employeeTimesheets.reduce((sum, et) => sum + et.missingTimesheet, 0);
+        const series = [
+          { name: 'Tracked', value: trackedTimesheets },
+          { name: 'Missing', value: missing },
+        ];
+        if (month.value === this.selectedMonth.value) {
+          this.hoursPieChartData = series;
+        }
+        result.push({
+          name: CommonUtility.getMonth(Number(month.value)).label, series: series
+        })
+      }
+    })
+    this.hoursBarChartData = result;
+  }
 }
