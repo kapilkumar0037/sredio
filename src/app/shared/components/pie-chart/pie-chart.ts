@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject, input } from '@angular/core';
 import { Color, LegendPosition, PieChartModule, ScaleType } from '@swimlane/ngx-charts';
+import { IChartSeriesRecord } from '../../models/general.models';
 
 @Component({
   selector: 'app-pie-chart',
@@ -8,16 +9,8 @@ import { Color, LegendPosition, PieChartModule, ScaleType } from '@swimlane/ngx-
   styleUrl: './pie-chart.scss'
 })
 export class PieChart {
-  single: any[] = [
-    {
-      "name": "Germany",
-      "value": 8940000
-    },
-    {
-      "name": "USA",
-      "value": 5000000
-    }
-  ];
+  pieChartData = input<IChartSeriesRecord[]>([]);
+  percent = input<number>(0);
   view: [number, number] = [250, 200];
 
   // options
@@ -34,8 +27,8 @@ export class PieChart {
     domain: ['#5AA454', '#A10A28', '#C7B42C', '#AAAAAA']
   }
 
-  getTotal(): number {
-    return this.single.reduce((acc, item) => acc + item.value, 0);
+  getPercent(): number {
+    return this.pieChartData().reduce((acc, item) => acc + item.value, 0);
   }
  
 

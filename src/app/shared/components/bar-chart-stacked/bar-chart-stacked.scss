@@ -1,0 +1,17 @@
+.bar-container {
+  ::ng-deep {
+    .chart-legend {
+      display: flex;
+      div {
+        width: 200px;
+      }
+    }
+    .legend-labels {
+      display: flex;
+      rotate: 90deg;
+      margin-top: 100px;
+      margin-left: -40px;
+
+    }
+  }
+}

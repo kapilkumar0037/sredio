@@ -21,5 +21,17 @@ export class SharedConstants {
         { label: 'November', value: 11 },
         { label: 'December', value: 12 },
     ]
+    public static projectNames = [
+        "Project Alpha",
+        "Project Beta",
+        "Project Gamma",
+        "Project Delta",
+        "Project Epsilon",
+        "Project Zeta",
+        "Project Eta",
+        "Project Theta",
+        "Project Iota",
+        "Project Kappa"
+    ];
 }
 

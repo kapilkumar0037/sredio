@@ -17,3 +17,13 @@ export interface IDropdownItem {
     value: string | number;
     icon?: string;
 }
+
+export interface IChartSeriesRecord {
+    name: string;
+    value: number;
+}
+
+export interface IChartSeriesGroupedRecord {
+    name: string;
+    series: IChartSeriesRecord[];
+}

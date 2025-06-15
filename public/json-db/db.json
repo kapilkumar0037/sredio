@@ -5147,244 +5147,2524 @@
     ],
     "projects": [
         {
-            "projectId": 1,
-            "projectName": "Apollo Upgrade",
+            "projectName": "Project Alpha",
             "year": 2023,
             "month": 1,
-            "hoursAllocated": 393,
-            "hoursConsumed": 160
+            "hoursAllocated": 129,
+            "hoursConsumed": 70
         },
         {
-            "projectId": 2,
-            "projectName": "Neptune Migration",
+            "projectName": "Project Alpha",
             "year": 2023,
             "month": 2,
-            "hoursAllocated": 333,
-            "hoursConsumed": 148
+            "hoursAllocated": 200,
+            "hoursConsumed": 155
         },
         {
-            "projectId": 3,
-            "projectName": "Orion Dashboard",
+            "projectName": "Project Alpha",
             "year": 2023,
             "month": 3,
-            "hoursAllocated": 206,
-            "hoursConsumed": 142
+            "hoursAllocated": 153,
+            "hoursConsumed": 92
         },
         {
-            "projectId": 4,
-            "projectName": "Helios Backend",
+            "projectName": "Project Alpha",
             "year": 2023,
             "month": 4,
-            "hoursAllocated": 208,
-            "hoursConsumed": 110
+            "hoursAllocated": 175,
+            "hoursConsumed": 67
         },
         {
-            "projectId": 5,
-            "projectName": "Artemis API",
+            "projectName": "Project Alpha",
             "year": 2023,
             "month": 5,
-            "hoursAllocated": 271,
-            "hoursConsumed": 151
+            "hoursAllocated": 144,
+            "hoursConsumed": 70
         },
         {
-            "projectId": 6,
-            "projectName": "Zeus Auth",
+            "projectName": "Project Alpha",
             "year": 2023,
             "month": 6,
-            "hoursAllocated": 305,
-            "hoursConsumed": 300
+            "hoursAllocated": 152,
+            "hoursConsumed": 41
         },
         {
-            "projectId": 7,
-            "projectName": "Hermes Delivery",
+            "projectName": "Project Alpha",
             "year": 2023,
             "month": 7,
-            "hoursAllocated": 202,
-            "hoursConsumed": 172
+            "hoursAllocated": 169,
+            "hoursConsumed": 50
         },
         {
-            "projectId": 8,
-            "projectName": "Athena Analytics",
+            "projectName": "Project Alpha",
             "year": 2023,
             "month": 8,
-            "hoursAllocated": 290,
-            "hoursConsumed": 176
+            "hoursAllocated": 197,
+            "hoursConsumed": 197
         },
         {
-            "projectId": 9,
-            "projectName": "Poseidon Storage",
+            "projectName": "Project Alpha",
             "year": 2023,
             "month": 9,
-            "hoursAllocated": 297,
-            "hoursConsumed": 190
+            "hoursAllocated": 161,
+            "hoursConsumed": 143
         },
         {
-            "projectId": 10,
-            "projectName": "Hera UI Revamp",
+            "projectName": "Project Alpha",
             "year": 2023,
             "month": 10,
-            "hoursAllocated": 232,
-            "hoursConsumed": 153
+            "hoursAllocated": 169,
+            "hoursConsumed": 101
         },
         {
-            "projectId": 1,
-            "projectName": "Apollo Upgrade",
+            "projectName": "Project Alpha",
             "year": 2023,
             "month": 11,
-            "hoursAllocated": 371,
-            "hoursConsumed": 281
+            "hoursAllocated": 162,
+            "hoursConsumed": 66
         },
         {
-            "projectId": 2,
-            "projectName": "Neptune Migration",
+            "projectName": "Project Alpha",
             "year": 2023,
             "month": 12,
-            "hoursAllocated": 214,
-            "hoursConsumed": 213
+            "hoursAllocated": 189,
+            "hoursConsumed": 25
         },
         {
-            "projectId": 3,
-            "projectName": "Orion Dashboard",
+            "projectName": "Project Alpha",
             "year": 2024,
             "month": 1,
-            "hoursAllocated": 372,
-            "hoursConsumed": 215
+            "hoursAllocated": 185,
+            "hoursConsumed": 37
         },
         {
-            "projectId": 4,
-            "projectName": "Helios Backend",
+            "projectName": "Project Alpha",
             "year": 2024,
             "month": 2,
-            "hoursAllocated": 227,
-            "hoursConsumed": 222
+            "hoursAllocated": 138,
+            "hoursConsumed": 91
         },
         {
-            "projectId": 5,
-            "projectName": "Artemis API",
+            "projectName": "Project Alpha",
             "year": 2024,
             "month": 3,
-            "hoursAllocated": 251,
-            "hoursConsumed": 170
+            "hoursAllocated": 191,
+            "hoursConsumed": 61
         },
         {
-            "projectId": 6,
-            "projectName": "Zeus Auth",
+            "projectName": "Project Alpha",
             "year": 2024,
             "month": 4,
-            "hoursAllocated": 380,
-            "hoursConsumed": 179
+            "hoursAllocated": 156,
+            "hoursConsumed": 103
         },
         {
-            "projectId": 7,
-            "projectName": "Hermes Delivery",
+            "projectName": "Project Alpha",
             "year": 2024,
             "month": 5,
-            "hoursAllocated": 255,
-            "hoursConsumed": 226
+            "hoursAllocated": 175,
+            "hoursConsumed": 28
         },
         {
-            "projectId": 8,
-            "projectName": "Athena Analytics",
+            "projectName": "Project Alpha",
             "year": 2024,
             "month": 6,
-            "hoursAllocated": 211,
-            "hoursConsumed": 187
+            "hoursAllocated": 145,
+            "hoursConsumed": 129
         },
         {
-            "projectId": 9,
-            "projectName": "Poseidon Storage",
+            "projectName": "Project Alpha",
             "year": 2024,
             "month": 7,
-            "hoursAllocated": 371,
-            "hoursConsumed": 336
+            "hoursAllocated": 125,
+            "hoursConsumed": 106
         },
         {
-            "projectId": 10,
-            "projectName": "Hera UI Revamp",
+            "projectName": "Project Alpha",
             "year": 2024,
             "month": 8,
-            "hoursAllocated": 355,
-            "hoursConsumed": 161
+            "hoursAllocated": 156,
+            "hoursConsumed": 96
         },
         {
-            "projectId": 1,
-            "projectName": "Apollo Upgrade",
+            "projectName": "Project Alpha",
             "year": 2024,
             "month": 9,
-            "hoursAllocated": 377,
-            "hoursConsumed": 252
+            "hoursAllocated": 129,
+            "hoursConsumed": 27
         },
         {
-            "projectId": 2,
-            "projectName": "Neptune Migration",
+            "projectName": "Project Alpha",
             "year": 2024,
             "month": 10,
-            "hoursAllocated": 350,
-            "hoursConsumed": 301
+            "hoursAllocated": 198,
+            "hoursConsumed": 69
         },
         {
-            "projectId": 3,
-            "projectName": "Orion Dashboard",
+            "projectName": "Project Alpha",
             "year": 2024,
             "month": 11,
-            "hoursAllocated": 345,
-            "hoursConsumed": 318
+            "hoursAllocated": 180,
+            "hoursConsumed": 125
         },
         {
-            "projectId": 4,
-            "projectName": "Helios Backend",
+            "projectName": "Project Alpha",
             "year": 2024,
             "month": 12,
-            "hoursAllocated": 262,
+            "hoursAllocated": 169,
+            "hoursConsumed": 85
+        },
+        {
+            "projectName": "Project Alpha",
+            "year": 2025,
+            "month": 1,
+            "hoursAllocated": 168,
+            "hoursConsumed": 73
+        },
+        {
+            "projectName": "Project Alpha",
+            "year": 2025,
+            "month": 2,
+            "hoursAllocated": 185,
+            "hoursConsumed": 134
+        },
+        {
+            "projectName": "Project Alpha",
+            "year": 2025,
+            "month": 3,
+            "hoursAllocated": 181,
+            "hoursConsumed": 73
+        },
+        {
+            "projectName": "Project Alpha",
+            "year": 2025,
+            "month": 4,
+            "hoursAllocated": 136,
+            "hoursConsumed": 70
+        },
+        {
+            "projectName": "Project Alpha",
+            "year": 2025,
+            "month": 5,
+            "hoursAllocated": 132,
+            "hoursConsumed": 62
+        },
+        {
+            "projectName": "Project Alpha",
+            "year": 2025,
+            "month": 6,
+            "hoursAllocated": 161,
+            "hoursConsumed": 41
+        },
+        {
+            "projectName": "Project Alpha",
+            "year": 2025,
+            "month": 7,
+            "hoursAllocated": 163,
+            "hoursConsumed": 111
+        },
+        {
+            "projectName": "Project Alpha",
+            "year": 2025,
+            "month": 8,
+            "hoursAllocated": 134,
+            "hoursConsumed": 97
+        },
+        {
+            "projectName": "Project Alpha",
+            "year": 2025,
+            "month": 9,
+            "hoursAllocated": 185,
+            "hoursConsumed": 79
+        },
+        {
+            "projectName": "Project Alpha",
+            "year": 2025,
+            "month": 10,
+            "hoursAllocated": 196,
+            "hoursConsumed": 27
+        },
+        {
+            "projectName": "Project Alpha",
+            "year": 2025,
+            "month": 11,
+            "hoursAllocated": 183,
+            "hoursConsumed": 152
+        },
+        {
+            "projectName": "Project Alpha",
+            "year": 2025,
+            "month": 12,
+            "hoursAllocated": 181,
+            "hoursConsumed": 66
+        },
+        {
+            "projectName": "Project Beta",
+            "year": 2023,
+            "month": 1,
+            "hoursAllocated": 192,
+            "hoursConsumed": 139
+        },
+        {
+            "projectName": "Project Beta",
+            "year": 2023,
+            "month": 2,
+            "hoursAllocated": 150,
+            "hoursConsumed": 97
+        },
+        {
+            "projectName": "Project Beta",
+            "year": 2023,
+            "month": 3,
+            "hoursAllocated": 187,
+            "hoursConsumed": 99
+        },
+        {
+            "projectName": "Project Beta",
+            "year": 2023,
+            "month": 4,
+            "hoursAllocated": 121,
+            "hoursConsumed": 38
+        },
+        {
+            "projectName": "Project Beta",
+            "year": 2023,
+            "month": 5,
+            "hoursAllocated": 162,
+            "hoursConsumed": 81
+        },
+        {
+            "projectName": "Project Beta",
+            "year": 2023,
+            "month": 6,
+            "hoursAllocated": 148,
+            "hoursConsumed": 101
+        },
+        {
+            "projectName": "Project Beta",
+            "year": 2023,
+            "month": 7,
+            "hoursAllocated": 138,
+            "hoursConsumed": 84
+        },
+        {
+            "projectName": "Project Beta",
+            "year": 2023,
+            "month": 8,
+            "hoursAllocated": 176,
+            "hoursConsumed": 64
+        },
+        {
+            "projectName": "Project Beta",
+            "year": 2023,
+            "month": 9,
+            "hoursAllocated": 142,
+            "hoursConsumed": 92
+        },
+        {
+            "projectName": "Project Beta",
+            "year": 2023,
+            "month": 10,
+            "hoursAllocated": 198,
             "hoursConsumed": 138
         },
         {
-            "projectId": 5,
-            "projectName": "Artemis API",
+            "projectName": "Project Beta",
+            "year": 2023,
+            "month": 11,
+            "hoursAllocated": 138,
+            "hoursConsumed": 44
+        },
+        {
+            "projectName": "Project Beta",
+            "year": 2023,
+            "month": 12,
+            "hoursAllocated": 150,
+            "hoursConsumed": 67
+        },
+        {
+            "projectName": "Project Beta",
+            "year": 2024,
+            "month": 1,
+            "hoursAllocated": 182,
+            "hoursConsumed": 32
+        },
+        {
+            "projectName": "Project Beta",
+            "year": 2024,
+            "month": 2,
+            "hoursAllocated": 160,
+            "hoursConsumed": 144
+        },
+        {
+            "projectName": "Project Beta",
+            "year": 2024,
+            "month": 3,
+            "hoursAllocated": 125,
+            "hoursConsumed": 50
+        },
+        {
+            "projectName": "Project Beta",
+            "year": 2024,
+            "month": 4,
+            "hoursAllocated": 132,
+            "hoursConsumed": 92
+        },
+        {
+            "projectName": "Project Beta",
+            "year": 2024,
+            "month": 5,
+            "hoursAllocated": 198,
+            "hoursConsumed": 194
+        },
+        {
+            "projectName": "Project Beta",
+            "year": 2024,
+            "month": 6,
+            "hoursAllocated": 186,
+            "hoursConsumed": 170
+        },
+        {
+            "projectName": "Project Beta",
+            "year": 2024,
+            "month": 7,
+            "hoursAllocated": 129,
+            "hoursConsumed": 8
+        },
+        {
+            "projectName": "Project Beta",
+            "year": 2024,
+            "month": 8,
+            "hoursAllocated": 160,
+            "hoursConsumed": 115
+        },
+        {
+            "projectName": "Project Beta",
+            "year": 2024,
+            "month": 9,
+            "hoursAllocated": 177,
+            "hoursConsumed": 84
+        },
+        {
+            "projectName": "Project Beta",
+            "year": 2024,
+            "month": 10,
+            "hoursAllocated": 172,
+            "hoursConsumed": 143
+        },
+        {
+            "projectName": "Project Beta",
+            "year": 2024,
+            "month": 11,
+            "hoursAllocated": 131,
+            "hoursConsumed": 74
+        },
+        {
+            "projectName": "Project Beta",
+            "year": 2024,
+            "month": 12,
+            "hoursAllocated": 183,
+            "hoursConsumed": 106
+        },
+        {
+            "projectName": "Project Beta",
             "year": 2025,
             "month": 1,
-            "hoursAllocated": 372,
-            "hoursConsumed": 238
+            "hoursAllocated": 151,
+            "hoursConsumed": 62
         },
         {
-            "projectId": 6,
-            "projectName": "Zeus Auth",
+            "projectName": "Project Beta",
             "year": 2025,
             "month": 2,
-            "hoursAllocated": 389,
-            "hoursConsumed": 206
+            "hoursAllocated": 200,
+            "hoursConsumed": 6
         },
         {
-            "projectId": 7,
-            "projectName": "Hermes Delivery",
+            "projectName": "Project Beta",
             "year": 2025,
             "month": 3,
-            "hoursAllocated": 311,
-            "hoursConsumed": 288
+            "hoursAllocated": 176,
+            "hoursConsumed": 1
         },
         {
-            "projectId": 8,
-            "projectName": "Athena Analytics",
+            "projectName": "Project Beta",
             "year": 2025,
             "month": 4,
-            "hoursAllocated": 281,
-            "hoursConsumed": 186
+            "hoursAllocated": 168,
+            "hoursConsumed": 142
         },
         {
-            "projectId": 9,
-            "projectName": "Poseidon Storage",
+            "projectName": "Project Beta",
             "year": 2025,
             "month": 5,
-            "hoursAllocated": 226,
-            "hoursConsumed": 147
+            "hoursAllocated": 178,
+            "hoursConsumed": 127
         },
         {
-            "projectId": 10,
-            "projectName": "Hera UI Revamp",
+            "projectName": "Project Beta",
             "year": 2025,
             "month": 6,
-            "hoursAllocated": 267,
-            "hoursConsumed": 265
+            "hoursAllocated": 192,
+            "hoursConsumed": 174
+        },
+        {
+            "projectName": "Project Beta",
+            "year": 2025,
+            "month": 7,
+            "hoursAllocated": 177,
+            "hoursConsumed": 141
+        },
+        {
+            "projectName": "Project Beta",
+            "year": 2025,
+            "month": 8,
+            "hoursAllocated": 188,
+            "hoursConsumed": 23
+        },
+        {
+            "projectName": "Project Beta",
+            "year": 2025,
+            "month": 9,
+            "hoursAllocated": 184,
+            "hoursConsumed": 99
+        },
+        {
+            "projectName": "Project Beta",
+            "year": 2025,
+            "month": 10,
+            "hoursAllocated": 150,
+            "hoursConsumed": 91
+        },
+        {
+            "projectName": "Project Beta",
+            "year": 2025,
+            "month": 11,
+            "hoursAllocated": 138,
+            "hoursConsumed": 68
+        },
+        {
+            "projectName": "Project Beta",
+            "year": 2025,
+            "month": 12,
+            "hoursAllocated": 162,
+            "hoursConsumed": 152
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2023,
+            "month": 1,
+            "hoursAllocated": 149,
+            "hoursConsumed": 45
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2023,
+            "month": 2,
+            "hoursAllocated": 155,
+            "hoursConsumed": 4
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2023,
+            "month": 3,
+            "hoursAllocated": 144,
+            "hoursConsumed": 37
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2023,
+            "month": 4,
+            "hoursAllocated": 166,
+            "hoursConsumed": 16
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2023,
+            "month": 5,
+            "hoursAllocated": 145,
+            "hoursConsumed": 131
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2023,
+            "month": 6,
+            "hoursAllocated": 197,
+            "hoursConsumed": 183
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2023,
+            "month": 7,
+            "hoursAllocated": 182,
+            "hoursConsumed": 110
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2023,
+            "month": 8,
+            "hoursAllocated": 145,
+            "hoursConsumed": 25
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2023,
+            "month": 9,
+            "hoursAllocated": 188,
+            "hoursConsumed": 63
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2023,
+            "month": 10,
+            "hoursAllocated": 141,
+            "hoursConsumed": 69
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2023,
+            "month": 11,
+            "hoursAllocated": 141,
+            "hoursConsumed": 61
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2023,
+            "month": 12,
+            "hoursAllocated": 152,
+            "hoursConsumed": 105
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2024,
+            "month": 1,
+            "hoursAllocated": 145,
+            "hoursConsumed": 8
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2024,
+            "month": 2,
+            "hoursAllocated": 168,
+            "hoursConsumed": 63
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2024,
+            "month": 3,
+            "hoursAllocated": 157,
+            "hoursConsumed": 64
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2024,
+            "month": 4,
+            "hoursAllocated": 192,
+            "hoursConsumed": 177
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2024,
+            "month": 5,
+            "hoursAllocated": 128,
+            "hoursConsumed": 104
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2024,
+            "month": 6,
+            "hoursAllocated": 164,
+            "hoursConsumed": 115
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2024,
+            "month": 7,
+            "hoursAllocated": 164,
+            "hoursConsumed": 13
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2024,
+            "month": 8,
+            "hoursAllocated": 165,
+            "hoursConsumed": 92
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2024,
+            "month": 9,
+            "hoursAllocated": 169,
+            "hoursConsumed": 32
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2024,
+            "month": 10,
+            "hoursAllocated": 130,
+            "hoursConsumed": 99
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2024,
+            "month": 11,
+            "hoursAllocated": 172,
+            "hoursConsumed": 16
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2024,
+            "month": 12,
+            "hoursAllocated": 192,
+            "hoursConsumed": 97
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2025,
+            "month": 1,
+            "hoursAllocated": 157,
+            "hoursConsumed": 37
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2025,
+            "month": 2,
+            "hoursAllocated": 188,
+            "hoursConsumed": 47
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2025,
+            "month": 3,
+            "hoursAllocated": 169,
+            "hoursConsumed": 21
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2025,
+            "month": 4,
+            "hoursAllocated": 123,
+            "hoursConsumed": 17
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2025,
+            "month": 5,
+            "hoursAllocated": 163,
+            "hoursConsumed": 42
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2025,
+            "month": 6,
+            "hoursAllocated": 180,
+            "hoursConsumed": 78
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2025,
+            "month": 7,
+            "hoursAllocated": 148,
+            "hoursConsumed": 126
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2025,
+            "month": 8,
+            "hoursAllocated": 196,
+            "hoursConsumed": 191
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2025,
+            "month": 9,
+            "hoursAllocated": 171,
+            "hoursConsumed": 135
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2025,
+            "month": 10,
+            "hoursAllocated": 148,
+            "hoursConsumed": 51
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2025,
+            "month": 11,
+            "hoursAllocated": 150,
+            "hoursConsumed": 50
+        },
+        {
+            "projectName": "Project Gamma",
+            "year": 2025,
+            "month": 12,
+            "hoursAllocated": 156,
+            "hoursConsumed": 144
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2023,
+            "month": 1,
+            "hoursAllocated": 180,
+            "hoursConsumed": 117
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2023,
+            "month": 2,
+            "hoursAllocated": 156,
+            "hoursConsumed": 106
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2023,
+            "month": 3,
+            "hoursAllocated": 160,
+            "hoursConsumed": 136
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2023,
+            "month": 4,
+            "hoursAllocated": 173,
+            "hoursConsumed": 89
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2023,
+            "month": 5,
+            "hoursAllocated": 199,
+            "hoursConsumed": 99
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2023,
+            "month": 6,
+            "hoursAllocated": 185,
+            "hoursConsumed": 19
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2023,
+            "month": 7,
+            "hoursAllocated": 159,
+            "hoursConsumed": 149
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2023,
+            "month": 8,
+            "hoursAllocated": 194,
+            "hoursConsumed": 72
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2023,
+            "month": 9,
+            "hoursAllocated": 157,
+            "hoursConsumed": 64
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2023,
+            "month": 10,
+            "hoursAllocated": 148,
+            "hoursConsumed": 141
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2023,
+            "month": 11,
+            "hoursAllocated": 173,
+            "hoursConsumed": 128
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2023,
+            "month": 12,
+            "hoursAllocated": 183,
+            "hoursConsumed": 155
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2024,
+            "month": 1,
+            "hoursAllocated": 189,
+            "hoursConsumed": 103
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2024,
+            "month": 2,
+            "hoursAllocated": 199,
+            "hoursConsumed": 29
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2024,
+            "month": 3,
+            "hoursAllocated": 159,
+            "hoursConsumed": 78
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2024,
+            "month": 4,
+            "hoursAllocated": 131,
+            "hoursConsumed": 110
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2024,
+            "month": 5,
+            "hoursAllocated": 124,
+            "hoursConsumed": 57
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2024,
+            "month": 6,
+            "hoursAllocated": 144,
+            "hoursConsumed": 27
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2024,
+            "month": 7,
+            "hoursAllocated": 156,
+            "hoursConsumed": 61
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2024,
+            "month": 8,
+            "hoursAllocated": 198,
+            "hoursConsumed": 88
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2024,
+            "month": 9,
+            "hoursAllocated": 127,
+            "hoursConsumed": 52
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2024,
+            "month": 10,
+            "hoursAllocated": 187,
+            "hoursConsumed": 38
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2024,
+            "month": 11,
+            "hoursAllocated": 152,
+            "hoursConsumed": 124
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2024,
+            "month": 12,
+            "hoursAllocated": 145,
+            "hoursConsumed": 116
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2025,
+            "month": 1,
+            "hoursAllocated": 179,
+            "hoursConsumed": 121
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2025,
+            "month": 2,
+            "hoursAllocated": 158,
+            "hoursConsumed": 136
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2025,
+            "month": 3,
+            "hoursAllocated": 133,
+            "hoursConsumed": 11
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2025,
+            "month": 4,
+            "hoursAllocated": 158,
+            "hoursConsumed": 46
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2025,
+            "month": 5,
+            "hoursAllocated": 133,
+            "hoursConsumed": 73
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2025,
+            "month": 6,
+            "hoursAllocated": 189,
+            "hoursConsumed": 120
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2025,
+            "month": 7,
+            "hoursAllocated": 123,
+            "hoursConsumed": 46
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2025,
+            "month": 8,
+            "hoursAllocated": 163,
+            "hoursConsumed": 151
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2025,
+            "month": 9,
+            "hoursAllocated": 140,
+            "hoursConsumed": 19
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2025,
+            "month": 10,
+            "hoursAllocated": 180,
+            "hoursConsumed": 34
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2025,
+            "month": 11,
+            "hoursAllocated": 139,
+            "hoursConsumed": 110
+        },
+        {
+            "projectName": "Project Delta",
+            "year": 2025,
+            "month": 12,
+            "hoursAllocated": 124,
+            "hoursConsumed": 104
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2023,
+            "month": 1,
+            "hoursAllocated": 145,
+            "hoursConsumed": 109
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2023,
+            "month": 2,
+            "hoursAllocated": 188,
+            "hoursConsumed": 124
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2023,
+            "month": 3,
+            "hoursAllocated": 128,
+            "hoursConsumed": 27
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2023,
+            "month": 4,
+            "hoursAllocated": 128,
+            "hoursConsumed": 86
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2023,
+            "month": 5,
+            "hoursAllocated": 144,
+            "hoursConsumed": 58
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2023,
+            "month": 6,
+            "hoursAllocated": 136,
+            "hoursConsumed": 90
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2023,
+            "month": 7,
+            "hoursAllocated": 137,
+            "hoursConsumed": 115
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2023,
+            "month": 8,
+            "hoursAllocated": 163,
+            "hoursConsumed": 49
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2023,
+            "month": 9,
+            "hoursAllocated": 182,
+            "hoursConsumed": 12
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2023,
+            "month": 10,
+            "hoursAllocated": 183,
+            "hoursConsumed": 104
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2023,
+            "month": 11,
+            "hoursAllocated": 124,
+            "hoursConsumed": 50
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2023,
+            "month": 12,
+            "hoursAllocated": 150,
+            "hoursConsumed": 141
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2024,
+            "month": 1,
+            "hoursAllocated": 151,
+            "hoursConsumed": 129
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2024,
+            "month": 2,
+            "hoursAllocated": 166,
+            "hoursConsumed": 68
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2024,
+            "month": 3,
+            "hoursAllocated": 181,
+            "hoursConsumed": 20
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2024,
+            "month": 4,
+            "hoursAllocated": 180,
+            "hoursConsumed": 144
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2024,
+            "month": 5,
+            "hoursAllocated": 157,
+            "hoursConsumed": 51
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2024,
+            "month": 6,
+            "hoursAllocated": 158,
+            "hoursConsumed": 22
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2024,
+            "month": 7,
+            "hoursAllocated": 160,
+            "hoursConsumed": 136
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2024,
+            "month": 8,
+            "hoursAllocated": 163,
+            "hoursConsumed": 24
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2024,
+            "month": 9,
+            "hoursAllocated": 183,
+            "hoursConsumed": 90
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2024,
+            "month": 10,
+            "hoursAllocated": 140,
+            "hoursConsumed": 93
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2024,
+            "month": 11,
+            "hoursAllocated": 163,
+            "hoursConsumed": 47
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2024,
+            "month": 12,
+            "hoursAllocated": 132,
+            "hoursConsumed": 128
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2025,
+            "month": 1,
+            "hoursAllocated": 151,
+            "hoursConsumed": 12
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2025,
+            "month": 2,
+            "hoursAllocated": 143,
+            "hoursConsumed": 121
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2025,
+            "month": 3,
+            "hoursAllocated": 188,
+            "hoursConsumed": 30
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2025,
+            "month": 4,
+            "hoursAllocated": 142,
+            "hoursConsumed": 40
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2025,
+            "month": 5,
+            "hoursAllocated": 178,
+            "hoursConsumed": 150
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2025,
+            "month": 6,
+            "hoursAllocated": 156,
+            "hoursConsumed": 28
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2025,
+            "month": 7,
+            "hoursAllocated": 152,
+            "hoursConsumed": 148
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2025,
+            "month": 8,
+            "hoursAllocated": 171,
+            "hoursConsumed": 70
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2025,
+            "month": 9,
+            "hoursAllocated": 199,
+            "hoursConsumed": 55
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2025,
+            "month": 10,
+            "hoursAllocated": 155,
+            "hoursConsumed": 7
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2025,
+            "month": 11,
+            "hoursAllocated": 144,
+            "hoursConsumed": 126
+        },
+        {
+            "projectName": "Project Epsilon",
+            "year": 2025,
+            "month": 12,
+            "hoursAllocated": 146,
+            "hoursConsumed": 107
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2023,
+            "month": 1,
+            "hoursAllocated": 177,
+            "hoursConsumed": 43
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2023,
+            "month": 2,
+            "hoursAllocated": 140,
+            "hoursConsumed": 118
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2023,
+            "month": 3,
+            "hoursAllocated": 173,
+            "hoursConsumed": 30
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2023,
+            "month": 4,
+            "hoursAllocated": 146,
+            "hoursConsumed": 89
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2023,
+            "month": 5,
+            "hoursAllocated": 200,
+            "hoursConsumed": 24
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2023,
+            "month": 6,
+            "hoursAllocated": 145,
+            "hoursConsumed": 104
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2023,
+            "month": 7,
+            "hoursAllocated": 142,
+            "hoursConsumed": 57
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2023,
+            "month": 8,
+            "hoursAllocated": 190,
+            "hoursConsumed": 74
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2023,
+            "month": 9,
+            "hoursAllocated": 135,
+            "hoursConsumed": 14
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2023,
+            "month": 10,
+            "hoursAllocated": 178,
+            "hoursConsumed": 78
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2023,
+            "month": 11,
+            "hoursAllocated": 141,
+            "hoursConsumed": 120
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2023,
+            "month": 12,
+            "hoursAllocated": 166,
+            "hoursConsumed": 138
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2024,
+            "month": 1,
+            "hoursAllocated": 194,
+            "hoursConsumed": 94
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2024,
+            "month": 2,
+            "hoursAllocated": 154,
+            "hoursConsumed": 151
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2024,
+            "month": 3,
+            "hoursAllocated": 198,
+            "hoursConsumed": 111
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2024,
+            "month": 4,
+            "hoursAllocated": 125,
+            "hoursConsumed": 88
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2024,
+            "month": 5,
+            "hoursAllocated": 135,
+            "hoursConsumed": 33
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2024,
+            "month": 6,
+            "hoursAllocated": 196,
+            "hoursConsumed": 117
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2024,
+            "month": 7,
+            "hoursAllocated": 121,
+            "hoursConsumed": 112
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2024,
+            "month": 8,
+            "hoursAllocated": 194,
+            "hoursConsumed": 22
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2024,
+            "month": 9,
+            "hoursAllocated": 192,
+            "hoursConsumed": 11
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2024,
+            "month": 10,
+            "hoursAllocated": 125,
+            "hoursConsumed": 108
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2024,
+            "month": 11,
+            "hoursAllocated": 123,
+            "hoursConsumed": 9
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2024,
+            "month": 12,
+            "hoursAllocated": 125,
+            "hoursConsumed": 22
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2025,
+            "month": 1,
+            "hoursAllocated": 152,
+            "hoursConsumed": 105
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2025,
+            "month": 2,
+            "hoursAllocated": 161,
+            "hoursConsumed": 69
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2025,
+            "month": 3,
+            "hoursAllocated": 142,
+            "hoursConsumed": 1
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2025,
+            "month": 4,
+            "hoursAllocated": 137,
+            "hoursConsumed": 22
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2025,
+            "month": 5,
+            "hoursAllocated": 189,
+            "hoursConsumed": 140
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2025,
+            "month": 6,
+            "hoursAllocated": 163,
+            "hoursConsumed": 85
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2025,
+            "month": 7,
+            "hoursAllocated": 133,
+            "hoursConsumed": 74
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2025,
+            "month": 8,
+            "hoursAllocated": 125,
+            "hoursConsumed": 34
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2025,
+            "month": 9,
+            "hoursAllocated": 129,
+            "hoursConsumed": 54
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2025,
+            "month": 10,
+            "hoursAllocated": 165,
+            "hoursConsumed": 66
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2025,
+            "month": 11,
+            "hoursAllocated": 158,
+            "hoursConsumed": 123
+        },
+        {
+            "projectName": "Project Zeta",
+            "year": 2025,
+            "month": 12,
+            "hoursAllocated": 161,
+            "hoursConsumed": 128
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2023,
+            "month": 1,
+            "hoursAllocated": 141,
+            "hoursConsumed": 79
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2023,
+            "month": 2,
+            "hoursAllocated": 173,
+            "hoursConsumed": 24
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2023,
+            "month": 3,
+            "hoursAllocated": 135,
+            "hoursConsumed": 93
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2023,
+            "month": 4,
+            "hoursAllocated": 150,
+            "hoursConsumed": 145
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2023,
+            "month": 5,
+            "hoursAllocated": 193,
+            "hoursConsumed": 110
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2023,
+            "month": 6,
+            "hoursAllocated": 170,
+            "hoursConsumed": 68
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2023,
+            "month": 7,
+            "hoursAllocated": 142,
+            "hoursConsumed": 11
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2023,
+            "month": 8,
+            "hoursAllocated": 123,
+            "hoursConsumed": 111
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2023,
+            "month": 9,
+            "hoursAllocated": 176,
+            "hoursConsumed": 126
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2023,
+            "month": 10,
+            "hoursAllocated": 127,
+            "hoursConsumed": 44
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2023,
+            "month": 11,
+            "hoursAllocated": 177,
+            "hoursConsumed": 30
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2023,
+            "month": 12,
+            "hoursAllocated": 135,
+            "hoursConsumed": 46
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2024,
+            "month": 1,
+            "hoursAllocated": 167,
+            "hoursConsumed": 107
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2024,
+            "month": 2,
+            "hoursAllocated": 142,
+            "hoursConsumed": 134
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2024,
+            "month": 3,
+            "hoursAllocated": 172,
+            "hoursConsumed": 43
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2024,
+            "month": 4,
+            "hoursAllocated": 199,
+            "hoursConsumed": 135
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2024,
+            "month": 5,
+            "hoursAllocated": 137,
+            "hoursConsumed": 46
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2024,
+            "month": 6,
+            "hoursAllocated": 156,
+            "hoursConsumed": 67
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2024,
+            "month": 7,
+            "hoursAllocated": 147,
+            "hoursConsumed": 17
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2024,
+            "month": 8,
+            "hoursAllocated": 196,
+            "hoursConsumed": 107
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2024,
+            "month": 9,
+            "hoursAllocated": 191,
+            "hoursConsumed": 107
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2024,
+            "month": 10,
+            "hoursAllocated": 192,
+            "hoursConsumed": 141
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2024,
+            "month": 11,
+            "hoursAllocated": 144,
+            "hoursConsumed": 130
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2024,
+            "month": 12,
+            "hoursAllocated": 157,
+            "hoursConsumed": 116
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2025,
+            "month": 1,
+            "hoursAllocated": 183,
+            "hoursConsumed": 1
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2025,
+            "month": 2,
+            "hoursAllocated": 195,
+            "hoursConsumed": 158
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2025,
+            "month": 3,
+            "hoursAllocated": 191,
+            "hoursConsumed": 177
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2025,
+            "month": 4,
+            "hoursAllocated": 128,
+            "hoursConsumed": 91
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2025,
+            "month": 5,
+            "hoursAllocated": 188,
+            "hoursConsumed": 6
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2025,
+            "month": 6,
+            "hoursAllocated": 187,
+            "hoursConsumed": 94
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2025,
+            "month": 7,
+            "hoursAllocated": 156,
+            "hoursConsumed": 98
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2025,
+            "month": 8,
+            "hoursAllocated": 137,
+            "hoursConsumed": 136
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2025,
+            "month": 9,
+            "hoursAllocated": 191,
+            "hoursConsumed": 127
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2025,
+            "month": 10,
+            "hoursAllocated": 196,
+            "hoursConsumed": 71
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2025,
+            "month": 11,
+            "hoursAllocated": 194,
+            "hoursConsumed": 78
+        },
+        {
+            "projectName": "Project Eta",
+            "year": 2025,
+            "month": 12,
+            "hoursAllocated": 138,
+            "hoursConsumed": 78
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2023,
+            "month": 1,
+            "hoursAllocated": 199,
+            "hoursConsumed": 105
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2023,
+            "month": 2,
+            "hoursAllocated": 140,
+            "hoursConsumed": 39
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2023,
+            "month": 3,
+            "hoursAllocated": 158,
+            "hoursConsumed": 108
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2023,
+            "month": 4,
+            "hoursAllocated": 193,
+            "hoursConsumed": 155
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2023,
+            "month": 5,
+            "hoursAllocated": 160,
+            "hoursConsumed": 146
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2023,
+            "month": 6,
+            "hoursAllocated": 124,
+            "hoursConsumed": 96
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2023,
+            "month": 7,
+            "hoursAllocated": 199,
+            "hoursConsumed": 81
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2023,
+            "month": 8,
+            "hoursAllocated": 199,
+            "hoursConsumed": 80
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2023,
+            "month": 9,
+            "hoursAllocated": 150,
+            "hoursConsumed": 121
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2023,
+            "month": 10,
+            "hoursAllocated": 144,
+            "hoursConsumed": 102
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2023,
+            "month": 11,
+            "hoursAllocated": 140,
+            "hoursConsumed": 13
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2023,
+            "month": 12,
+            "hoursAllocated": 149,
+            "hoursConsumed": 117
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2024,
+            "month": 1,
+            "hoursAllocated": 197,
+            "hoursConsumed": 66
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2024,
+            "month": 2,
+            "hoursAllocated": 179,
+            "hoursConsumed": 58
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2024,
+            "month": 3,
+            "hoursAllocated": 169,
+            "hoursConsumed": 72
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2024,
+            "month": 4,
+            "hoursAllocated": 177,
+            "hoursConsumed": 169
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2024,
+            "month": 5,
+            "hoursAllocated": 167,
+            "hoursConsumed": 144
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2024,
+            "month": 6,
+            "hoursAllocated": 128,
+            "hoursConsumed": 103
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2024,
+            "month": 7,
+            "hoursAllocated": 158,
+            "hoursConsumed": 64
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2024,
+            "month": 8,
+            "hoursAllocated": 187,
+            "hoursConsumed": 163
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2024,
+            "month": 9,
+            "hoursAllocated": 132,
+            "hoursConsumed": 102
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2024,
+            "month": 10,
+            "hoursAllocated": 120,
+            "hoursConsumed": 77
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2024,
+            "month": 11,
+            "hoursAllocated": 158,
+            "hoursConsumed": 94
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2024,
+            "month": 12,
+            "hoursAllocated": 199,
+            "hoursConsumed": 187
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2025,
+            "month": 1,
+            "hoursAllocated": 166,
+            "hoursConsumed": 22
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2025,
+            "month": 2,
+            "hoursAllocated": 141,
+            "hoursConsumed": 3
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2025,
+            "month": 3,
+            "hoursAllocated": 175,
+            "hoursConsumed": 32
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2025,
+            "month": 4,
+            "hoursAllocated": 170,
+            "hoursConsumed": 122
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2025,
+            "month": 5,
+            "hoursAllocated": 134,
+            "hoursConsumed": 61
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2025,
+            "month": 6,
+            "hoursAllocated": 188,
+            "hoursConsumed": 136
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2025,
+            "month": 7,
+            "hoursAllocated": 134,
+            "hoursConsumed": 118
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2025,
+            "month": 8,
+            "hoursAllocated": 130,
+            "hoursConsumed": 123
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2025,
+            "month": 9,
+            "hoursAllocated": 191,
+            "hoursConsumed": 22
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2025,
+            "month": 10,
+            "hoursAllocated": 194,
+            "hoursConsumed": 24
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2025,
+            "month": 11,
+            "hoursAllocated": 143,
+            "hoursConsumed": 70
+        },
+        {
+            "projectName": "Project Theta",
+            "year": 2025,
+            "month": 12,
+            "hoursAllocated": 156,
+            "hoursConsumed": 31
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2023,
+            "month": 1,
+            "hoursAllocated": 167,
+            "hoursConsumed": 118
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2023,
+            "month": 2,
+            "hoursAllocated": 150,
+            "hoursConsumed": 24
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2023,
+            "month": 3,
+            "hoursAllocated": 196,
+            "hoursConsumed": 1
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2023,
+            "month": 4,
+            "hoursAllocated": 194,
+            "hoursConsumed": 177
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2023,
+            "month": 5,
+            "hoursAllocated": 140,
+            "hoursConsumed": 10
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2023,
+            "month": 6,
+            "hoursAllocated": 164,
+            "hoursConsumed": 21
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2023,
+            "month": 7,
+            "hoursAllocated": 134,
+            "hoursConsumed": 58
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2023,
+            "month": 8,
+            "hoursAllocated": 187,
+            "hoursConsumed": 169
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2023,
+            "month": 9,
+            "hoursAllocated": 152,
+            "hoursConsumed": 72
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2023,
+            "month": 10,
+            "hoursAllocated": 168,
+            "hoursConsumed": 56
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2023,
+            "month": 11,
+            "hoursAllocated": 134,
+            "hoursConsumed": 123
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2023,
+            "month": 12,
+            "hoursAllocated": 154,
+            "hoursConsumed": 115
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2024,
+            "month": 1,
+            "hoursAllocated": 173,
+            "hoursConsumed": 131
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2024,
+            "month": 2,
+            "hoursAllocated": 160,
+            "hoursConsumed": 96
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2024,
+            "month": 3,
+            "hoursAllocated": 131,
+            "hoursConsumed": 125
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2024,
+            "month": 4,
+            "hoursAllocated": 174,
+            "hoursConsumed": 9
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2024,
+            "month": 5,
+            "hoursAllocated": 148,
+            "hoursConsumed": 26
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2024,
+            "month": 6,
+            "hoursAllocated": 133,
+            "hoursConsumed": 106
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2024,
+            "month": 7,
+            "hoursAllocated": 183,
+            "hoursConsumed": 100
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2024,
+            "month": 8,
+            "hoursAllocated": 190,
+            "hoursConsumed": 140
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2024,
+            "month": 9,
+            "hoursAllocated": 165,
+            "hoursConsumed": 141
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2024,
+            "month": 10,
+            "hoursAllocated": 197,
+            "hoursConsumed": 48
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2024,
+            "month": 11,
+            "hoursAllocated": 154,
+            "hoursConsumed": 104
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2024,
+            "month": 12,
+            "hoursAllocated": 197,
+            "hoursConsumed": 64
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2025,
+            "month": 1,
+            "hoursAllocated": 178,
+            "hoursConsumed": 5
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2025,
+            "month": 2,
+            "hoursAllocated": 151,
+            "hoursConsumed": 144
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2025,
+            "month": 3,
+            "hoursAllocated": 190,
+            "hoursConsumed": 118
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2025,
+            "month": 4,
+            "hoursAllocated": 124,
+            "hoursConsumed": 49
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2025,
+            "month": 5,
+            "hoursAllocated": 121,
+            "hoursConsumed": 0
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2025,
+            "month": 6,
+            "hoursAllocated": 123,
+            "hoursConsumed": 97
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2025,
+            "month": 7,
+            "hoursAllocated": 186,
+            "hoursConsumed": 184
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2025,
+            "month": 8,
+            "hoursAllocated": 128,
+            "hoursConsumed": 53
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2025,
+            "month": 9,
+            "hoursAllocated": 180,
+            "hoursConsumed": 178
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2025,
+            "month": 10,
+            "hoursAllocated": 181,
+            "hoursConsumed": 55
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2025,
+            "month": 11,
+            "hoursAllocated": 123,
+            "hoursConsumed": 70
+        },
+        {
+            "projectName": "Project Iota",
+            "year": 2025,
+            "month": 12,
+            "hoursAllocated": 164,
+            "hoursConsumed": 61
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2023,
+            "month": 1,
+            "hoursAllocated": 179,
+            "hoursConsumed": 115
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2023,
+            "month": 2,
+            "hoursAllocated": 190,
+            "hoursConsumed": 139
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2023,
+            "month": 3,
+            "hoursAllocated": 127,
+            "hoursConsumed": 124
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2023,
+            "month": 4,
+            "hoursAllocated": 193,
+            "hoursConsumed": 178
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2023,
+            "month": 5,
+            "hoursAllocated": 123,
+            "hoursConsumed": 46
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2023,
+            "month": 6,
+            "hoursAllocated": 123,
+            "hoursConsumed": 26
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2023,
+            "month": 7,
+            "hoursAllocated": 196,
+            "hoursConsumed": 81
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2023,
+            "month": 8,
+            "hoursAllocated": 193,
+            "hoursConsumed": 17
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2023,
+            "month": 9,
+            "hoursAllocated": 143,
+            "hoursConsumed": 43
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2023,
+            "month": 10,
+            "hoursAllocated": 197,
+            "hoursConsumed": 22
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2023,
+            "month": 11,
+            "hoursAllocated": 200,
+            "hoursConsumed": 118
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2023,
+            "month": 12,
+            "hoursAllocated": 167,
+            "hoursConsumed": 101
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2024,
+            "month": 1,
+            "hoursAllocated": 159,
+            "hoursConsumed": 142
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2024,
+            "month": 2,
+            "hoursAllocated": 134,
+            "hoursConsumed": 32
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2024,
+            "month": 3,
+            "hoursAllocated": 131,
+            "hoursConsumed": 30
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2024,
+            "month": 4,
+            "hoursAllocated": 162,
+            "hoursConsumed": 75
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2024,
+            "month": 5,
+            "hoursAllocated": 154,
+            "hoursConsumed": 53
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2024,
+            "month": 6,
+            "hoursAllocated": 197,
+            "hoursConsumed": 137
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2024,
+            "month": 7,
+            "hoursAllocated": 189,
+            "hoursConsumed": 168
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2024,
+            "month": 8,
+            "hoursAllocated": 178,
+            "hoursConsumed": 79
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2024,
+            "month": 9,
+            "hoursAllocated": 139,
+            "hoursConsumed": 124
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2024,
+            "month": 10,
+            "hoursAllocated": 144,
+            "hoursConsumed": 87
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2024,
+            "month": 11,
+            "hoursAllocated": 146,
+            "hoursConsumed": 11
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2024,
+            "month": 12,
+            "hoursAllocated": 194,
+            "hoursConsumed": 36
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2025,
+            "month": 1,
+            "hoursAllocated": 168,
+            "hoursConsumed": 59
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2025,
+            "month": 2,
+            "hoursAllocated": 154,
+            "hoursConsumed": 110
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2025,
+            "month": 3,
+            "hoursAllocated": 147,
+            "hoursConsumed": 54
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2025,
+            "month": 4,
+            "hoursAllocated": 140,
+            "hoursConsumed": 131
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2025,
+            "month": 5,
+            "hoursAllocated": 176,
+            "hoursConsumed": 149
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2025,
+            "month": 6,
+            "hoursAllocated": 168,
+            "hoursConsumed": 3
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2025,
+            "month": 7,
+            "hoursAllocated": 184,
+            "hoursConsumed": 91
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2025,
+            "month": 8,
+            "hoursAllocated": 160,
+            "hoursConsumed": 63
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2025,
+            "month": 9,
+            "hoursAllocated": 125,
+            "hoursConsumed": 85
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2025,
+            "month": 10,
+            "hoursAllocated": 131,
+            "hoursConsumed": 104
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2025,
+            "month": 11,
+            "hoursAllocated": 132,
+            "hoursConsumed": 122
+        },
+        {
+            "projectName": "Project Kappa",
+            "year": 2025,
+            "month": 12,
+            "hoursAllocated": 151,
+            "hoursConsumed": 37
         }
     ],
     "activeIntegrations": [

@@ -2,7 +2,7 @@ import { Component, inject } from '@angular/core';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { CircleProgress } from '../../../shared/components/circle-progress/circle-progress';
 import { Tile } from '../../../shared/components/tile/tile';
-import { IDropdownItem, ISummaryTile } from '../../../shared/models/general.models';
+import { IChartSeriesGroupedRecord, IChartSeriesRecord, IDropdownItem, ISummaryTile } from '../../../shared/models/general.models';
 import { DashboardConstants } from '../constants/general.constants';
 import { ActiveIntegrations } from './active-integrations/active-integrations';
 import { EmployeeList } from './employee-list/employee-list';
@@ -33,13 +33,17 @@ export class Dashboard {
   monthDropdownItems = SharedConstants.MonthDropdownItems;
   employeeDropdownItems: IDropdownItem[] = [];
   selectedEmployee: IDropdownItem = { label: 'All', value: -1 };
-
+  sredVsRegular: IChartSeriesRecord[] = [];
+  pieChartPercent: number = 0;
+  projectsBarChartData: IChartSeriesGroupedRecord[] = [];
   ngOnInit() {
-    this.dashboardService.getDashboardData().subscribe((data) => {      
+    this.dashboardService.getDashboardData().subscribe((data) => {
       this.employeeDropdownItems = this.getEmployeeDropdownItems(data.employees);
       this.fetchSummaries();
+      console.log(data);
     });
   }
+
 
   changeEmployee(employee: IDropdownItem) {
     this.selectedEmployee = employee;
@@ -63,6 +67,22 @@ export class Dashboard {
   fetchSummaries() {
     this.summary = this.dashboardService.getSummary(this.selectedYear.value, this.selectedMonth.value, +this.selectedEmployee.value);
     this.setSummaryTileValues();
+    this.getPieChartData();
+    this.getProjectBarChartData();
+  }
+
+  getPieChartData() {
+    this.sredVsRegular = [
+      {
+        name: 'SRED Hours',
+        value: this.summary.totalSredHoursTracked
+      },
+      {
+        name: 'Regular Hours',
+        value: this.summary.totalTrackedHours - this.summary.totalSredHoursTracked
+      }
+    ]
+    this.pieChartPercent = Math.round(this.summary.totalSredHoursTracked / (this.summary.totalTrackedHours - this.summary.totalSredHoursTracked) * 100);
   }
 
   setSummaryTileValues() {
@@ -95,5 +115,102 @@ export class Dashboard {
       value: employee.id
     }));
   }
+
+  getProjectBarChartData() {
+    const result: IChartSeriesGroupedRecord[] = [];
+    SharedConstants.projectNames.forEach((pname) => {
+      const projectData = this.summary.projects.filter((x) => x.projectName === pname);
+      const totalProjectAllocation = projectData.reduce((sum, et) => sum + et.hoursAllocated, 0);
+      const totalProjectConsumed = projectData.reduce((sum, et) => sum + et.hoursConsumed, 0);
+      result.push({
+        name: pname, series: [
+          { name: 'Allocated', value: totalProjectAllocation },
+          { name: 'Consumed', value: totalProjectConsumed }
+        ]
+      })
+    })
+    console.log(result);
+    this.projectsBarChartData = result;
+  }
+
+  groupedBarData = [
+    {
+      name: 'Product A',
+      series: [
+        { name: '2020', value: 300 },
+        { name: '2021', value: 400 }
+      ]
+    },
+    {
+      name: 'Product B',
+      series: [
+        { name: '2020', value: 270 },
+        { name: '2021', value: 350 }
+      ]
+    },
+    {
+      name: 'Product C',
+      series: [
+        { name: '2020', value: 250 },
+        { name: '2021', value: 300 }
+      ]
+    },
+    {
+      name: 'Product D',
+      series: [
+        { name: '2020', value: 250 },
+        { name: '2021', value: 300 }
+      ]
+    },
+    {
+      name: 'Product E',
+      series: [
+        { name: '2020', value: 250 },
+        { name: '2021', value: 300 }
+      ]
+    },
+    {
+      name: 'Product F',
+      series: [
+        { name: '2020', value: 250 },
+        { name: '2021', value: 300 }
+      ]
+    },
+    {
+      name: 'Product G',
+      series: [
+        { name: '2020', value: 250 },
+        { name: '2021', value: 300 }
+      ]
+    },
+    {
+      name: 'Product H',
+      series: [
+        { name: '2020', value: 250 },
+        { name: '2021', value: 300 }
+      ]
+    },
+    {
+      name: 'Product I',
+      series: [
+        { name: '2020', value: 250 },
+        { name: '2021', value: 300 }
+      ]
+    },
+    {
+      name: 'Product J',
+      series: [
+        { name: '2020', value: 250 },
+        { name: '2021', value: 300 }
+      ]
+    },
+    {
+      name: 'Product K',
+      series: [
+        { name: '2020', value: 250 },
+        { name: '2021', value: 300 }
+      ]
+    },
+  ];
 
 }
