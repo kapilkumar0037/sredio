@@ -33,7 +33,7 @@ export class Dashboard {
   dashboardService = inject(DashboardService);
   summary!: ISummary;
   selectedYear: IDropdownItem = CommonUtility.getYear(new Date().getFullYear());
-  selectedMonth: IDropdownItem = CommonUtility.getMonth(new Date().getMonth() + 1);
+  selectedMonth: IDropdownItem = CommonUtility.getMonth(-1); //new Date().getMonth() + 1
   yearDropdownItems = SharedConstants.YearDropdownItems;
   monthDropdownItems = SharedConstants.MonthDropdownItems;
   employeeDropdownItems: IDropdownItem[] = [];
