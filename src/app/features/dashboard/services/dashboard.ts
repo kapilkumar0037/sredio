@@ -109,7 +109,7 @@ export class DashboardService {
 
     this.employeeSummary.employeesList = this.employeeSummary.employeeHours.map(item1 => {
       const match = this.employeeSummary.employeeTimesheets.find(item2 => item2.employeeId === item1.employeeId && item2.month === item1.month);
-      const name = this.employees.find(e => e.id === item1.employeeId)?.name || 'Unknown';
+      const name = this.employees.find(e => +e.id === item1.employeeId)?.name;
       return { name, ...item1, ...match } as IEmployeeListItem;
     });
 
